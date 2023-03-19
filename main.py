@@ -30,13 +30,13 @@ def get_promo():
             "article_desc": article_desc
         }
 
-    with open("tgParserBot/promo_dict.json", "w") as file:
+    with open("tg-bot/promo_dict.json", "w") as file:
         json.dump(promo_dict, file, indent=4, ensure_ascii=False)
 
 
 def check_promo_update():
 
-    with open("tgParserBot/promo_dict.json") as file:
+    with open("tg-bot/promo_dict.json") as file:
         promo_dict = json.load(file)
 
     headers = {
@@ -73,7 +73,7 @@ def check_promo_update():
                 "article_desc": article_desc
             }
 
-    with open("tgParserBot/news_dict.json", "w") as file:
+    with open("tg-bot/news_dict.json", "w") as file:
         json.dump(promo_dict, file, indent=4, ensure_ascii=False)
 
     return fresh_promo

@@ -16,7 +16,7 @@ async def start(message: types.Message):
 
 @dp.message_handler(Text(equals="Все промо акции"))
 async def get_all_promo(message: types.Message):
-    with open("tgParserBot/promo_dict.json") as file:
+    with open("tg-bot/promo_dict.json") as file:
         promo_dict = json.load(file)
 
     for k, v in promo_dict.items():
@@ -28,7 +28,7 @@ async def get_all_promo(message: types.Message):
 
 @dp.message_handler(Text(equals="Последние 3 промо акции"))
 async def get_last_three_promo(message: types.Message):
-    with open("tgParserBot/promo_dict.json") as file:
+    with open("tg-bot/promo_dict.json") as file:
         promo_dict = json.load(file)
 
     for k, v in sorted(promo_dict.items())[-3:]:

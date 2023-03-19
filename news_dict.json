@@ -1,27 +1,27 @@
 {
     "one.": {
         "article_title": "ВЕСНА В ГОРОДЕ",
-        "article_url": "https://uiuyoop.github.io/forparser/links/one.html",
+        "article_url": "https://uiuyoop.github.io/for-parser/links/one.html",
         "article_desc": "Наслаждайтесь прекрасным видом на солнечный город из роскошных номеров отеля."
     },
     "two.": {
         "article_title": "СЧАСТЬЕ ДЛЯ ДВОИХ",
-        "article_url": "https://uiuyoop.github.io/forparser/links/two.html",
+        "article_url": "https://uiuyoop.github.io/for-parser/links/two.html",
         "article_desc": "Подарите самому близкому человеку выходные безмятежного счастья в Лотте Отеле Самара."
     },
     "three.": {
         "article_title": "СЕМЕЙНЫЕ ВЫХОДНЫЕ",
-        "article_url": "https://uiuyoop.github.io/forparser/links/three.html",
+        "article_url": "https://uiuyoop.github.io/for-parser/links/three.html",
         "article_desc": "Порадуйте себя и своих близких беззаботными выходными в кругу семьи. Предложение действует с пятницы по воскресенье."
     },
     "four.": {
         "article_title": "PET FRIENDLY",
-        "article_url": "https://uiuyoop.github.io/forparser/links/four.html",
+        "article_url": "https://uiuyoop.github.io/for-parser/links/four.html",
         "article_desc": "C радостью разместим Ваших четвероногих друзей в роскошных номерах Lotte Hotel Samara."
     },
     "five.": {
         "article_title": "ДЕТСКИЙ ДЕНЬ РОЖДЕНИЯ В ЛОТТЕ",
-        "article_url": "https://uiuyoop.github.io/forparser/links/five.html",
+        "article_url": "https://uiuyoop.github.io/for-parser/links/five.html",
         "article_desc": "Праздник в формате кулинарного мастер-класса."
     }
 }
