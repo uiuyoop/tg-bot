@@ -8,7 +8,7 @@ def get_promo():
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
     }
 
-    url = "https://uiuyoop.github.io/forparser/"
+    url = "https://uiuyoop.github.io/for-parser/"
     request = requests.get(url=url, headers=headers)
 
     soup = BeautifulSoup(request.text, "lxml")
@@ -19,7 +19,7 @@ def get_promo():
     for article in articles_card:
         article_title = article.find("h2", class_="article-card-title").text.strip()
         article_desc = article.find("p").text.strip()
-        article_url = f'https://uiuyoop.github.io/forparser/{article.get("href")}'
+        article_url = f'https://uiuyoop.github.io/for-parser/{article.get("href")}'
 
         article_id = article_url.split("/")[-1]
         article_id = article_id[:-4]
@@ -43,7 +43,7 @@ def check_promo_update():
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
     }
 
-    url = "https://uiuyoop.github.io/forparser/"
+    url = "https://uiuyoop.github.io/for-parser/"
     request = requests.get(url=url, headers=headers)
 
     soup = BeautifulSoup(request.text, "lxml")
@@ -51,7 +51,7 @@ def check_promo_update():
 
     fresh_promo = {}
     for article in articles_card:
-        article_url = f'https://uiuyoop.github.io/forparser/{article.get("href")}'
+        article_url = f'https://uiuyoop.github.io/for-parser/{article.get("href")}'
         article_id = article_url.split("/")[-1]
         article_id = article_id[:-4]
 
